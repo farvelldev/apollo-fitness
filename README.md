@@ -25,7 +25,7 @@ Follow these steps to run the project in your local environment.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://aws.amazon.com/es/what-is/repo/](https://aws.amazon.com/es/what-is/repo/)
+    git clone https://github.com/farvelldev/apollo-fitness
     cd apolo-fitness
     ```
 
