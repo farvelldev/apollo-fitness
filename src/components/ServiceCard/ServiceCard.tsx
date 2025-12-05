@@ -12,10 +12,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ imageURL, title, description 
       className="service-card" 
       style={{ backgroundImage: `url(${imageURL})` }} 
     >
-      <div className="card-overlay"></div> {/* Capa oscura para legibilidad */}
+      <div className="card-overlay"></div>
       
       <div className="card-content-image">
-        {/* Usamos <h3> y <p> como un bloque de contenido en el centro/fondo */}
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
