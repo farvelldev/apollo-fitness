@@ -1,16 +1,22 @@
-import './Button.css';
+import "./Button.css";
 
 interface ButtonProps {
   children: React.ReactNode;
   primary?: boolean;
+  type?: 'button' | 'submit' | 'reset';
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ children, primary = true, onClick }) => {
-  const className = primary ? 'btn btn-primary' : 'btn btn-secondary';
-  
+const Button: React.FC<ButtonProps> = ({ children, primary = true, type = "button", onClick }) => {  
   return (
-    <button className={className} type="button" onClick={onClick}>
+    <button 
+      type={type}
+      onClick={onClick}
+      className={`
+        btn
+        ${primary ? 'btn-primary' : 'btn-secondary'}
+      `} 
+    >
       {children}
     </button>
   );
