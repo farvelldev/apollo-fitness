@@ -8,7 +8,7 @@ The main goal is to deliver a smooth, fast, and fully responsive user experience
 
 You can view the live application [here](https://apollo-fitness.netlify.app).
 
-[Image of a gym interior with neon red lighting.](https://placehold.co/800x400/121212/FF0033/png?text=Apolo+Fitness)
+![Image of a gym interior with neon red lighting.](https://placehold.co/800x400/121212/FF0033/png?text=Apolo+Fitness)
 
 ---
 
