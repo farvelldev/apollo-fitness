@@ -4,22 +4,22 @@ import './Features.css';
 
 const servicesData = [
   {
-    imageURL: 'equipment.jpg',
+    imageURL: 'features/equipment.jpg',
     title: 'Equipamiento de Élite',
     description: 'Contamos con máquinas de última generación y peso libre para cada nivel de entrenamiento. ¡Máxima calidad garantizada!',
   },
   {
-    imageURL: 'classrooms.jpg',
+    imageURL: 'features/classrooms.jpg',
     title: 'Clases Dirigidas',
     description: 'Más de 30 clases semanales de spinning, yoga, HIIT y boxeo. Encuentra tu ritmo con nuestros coaches expertos.',
   },
   {
-    imageURL: 'coach.jpg',
+    imageURL: 'features/coach.jpg',
     title: 'Coaching Personalizado',
     description: 'Trabaja individualmente con un entrenador certificado para alcanzar tus metas de forma eficiente y segura.',
   },
   {
-    imageURL: 'night.jpg',
+    imageURL: 'features/night.jpg',
     title: 'Acceso 24/7',
     description: 'Entrena cuando quieras. Nuestro gimnasio está abierto 24 horas al día, 7 días a la semana, para que tu horario no sea un problema.',
   },
