@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
-import Button from '../components/Button/Button';
+import { Button } from '../../components';
 import './Hero.css';
 
 const Hero: React.FC = () => {

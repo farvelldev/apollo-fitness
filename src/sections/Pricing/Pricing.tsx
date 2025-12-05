@@ -1,5 +1,8 @@
-import AnimateOnScroll from '../../components/AnimateOnScroll/AnimateOnScroll';
-import PriceCard from '../components/PriceCard';
+import {
+  AnimateOnScroll,
+  PriceCard
+} from "../../components";
+
 import './Pricing.css';
 
 const pricingData = [

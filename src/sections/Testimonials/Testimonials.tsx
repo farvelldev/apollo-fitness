@@ -1,5 +1,8 @@
-import AnimateOnScroll from '../components/AnimateOnScroll/AnimateOnScroll';
-import TestimonialCard from '../components/TestimonialCard/TestimonialCard';
+import {
+  AnimateOnScroll,
+  TestimonialCard
+} from "../../components";
+
 import './Testimonials.css';
 
 const testimonialsData = [

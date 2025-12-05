@@ -1,5 +1,8 @@
-import AnimateOnScroll from '../components/AnimateOnScroll/AnimateOnScroll';
-import ServiceCard from '../components/ServiceCard/ServiceCard';
+import {
+  AnimateOnScroll,
+  ServiceCard
+} from "../../components";
+
 import './Features.css';
 
 const servicesData = [

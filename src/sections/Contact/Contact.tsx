@@ -1,5 +1,8 @@
-import Button from '../components/Button/Button';
-import AnimateOnScroll from '../components/AnimateOnScroll/AnimateOnScroll';
+import {
+  AnimateOnScroll,
+  Button
+} from "../../components"
+
 import './Contact.css';
 
 const Contact: React.FC = () => {
