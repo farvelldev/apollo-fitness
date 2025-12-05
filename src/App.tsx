@@ -1,13 +1,13 @@
 import { ParallaxProvider } from 'react-scroll-parallax';
-import Navbar from './sections/Navbar'; 
-import Footer from './sections/Footer/Footer';
 
 import {
-  Hero,
+  Contact,
   Features,
+  Footer,
+  Hero,
+  Navbar,
   Pricing,
-  Testimonials,
-  Contact
+  Testimonials
 } from "./sections";
 
 function App() {
